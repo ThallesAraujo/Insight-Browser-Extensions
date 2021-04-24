@@ -8,7 +8,7 @@ $("*").get().reverse().each(function() {
     for (var prop in colorProperties) {
         prop = colorProperties[prop];
 
-        //if we can't find this property or it's null, continue
+        //if we can't find this property or it's null, continue.
         if (!$(this).css(prop)) continue; 
 
         //create RGBColor object
