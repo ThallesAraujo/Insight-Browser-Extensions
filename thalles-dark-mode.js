@@ -25,7 +25,7 @@
       DarkReader.setFetchMethod(window.fetch)
       DarkReader.auto({
         brightness: 0,
-        contrast: 0,
+        contrast: 90,
         sepia: 0
       });
     };
