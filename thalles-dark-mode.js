@@ -24,8 +24,8 @@
     const applyDark = () => {
       DarkReader.setFetchMethod(window.fetch)
       DarkReader.auto({
-        brightness: 100,
-        contrast: 90,
+        brightness: 20,
+        contrast: 100,
         sepia: 0
       });
     };
