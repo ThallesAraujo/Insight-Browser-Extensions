@@ -4,10 +4,10 @@ javascript: (
     var css = 'html {-webkit-filter: invert(100%);' +
         '-moz-filter: invert(100%);' + 
         '-o-filter: invert(100%);' + 
-        '-ms-filter: invert(100%);} img {-webkit-filter: invert(100%);' +
-        '-moz-filter: invert(100%);' + 
-        '-o-filter: invert(100%);' + 
-        '-ms-filter: invert(100%);}',
+        '-ms-filter: invert(100%);} img {-webkit-filter: invert(0%);' +
+        '-moz-filter: invert(0%);' + 
+        '-o-filter: invert(0%);' + 
+        '-ms-filter: invert(0%);}',
     
     head = document.getElementsByTagName('head')[0],
     style = document.createElement('style');
